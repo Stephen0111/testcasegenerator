@@ -1,0 +1,36 @@
+/* APP CONTAINER */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* use viewport height */
+}
+
+/* MAIN PANELS */
+.main {
+  flex: 1; /* take all remaining height after header + toolbar */
+  display: flex;
+  overflow: hidden;
+}
+
+/* EDITOR PANEL */
+.editor-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* REMOVE height: 100%; */
+  border-right: 1px solid #444;
+}
+
+/* OUTPUT PANEL */
+.output-panel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  border-left: 1px solid #444;
+  background-color: #1e1e1e;
+}
+
+.output-panel.collapsed {
+  width: 40px;
+}
