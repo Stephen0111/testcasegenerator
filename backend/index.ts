@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors({
   origin: [
-    'https://reactestcasegenerator.s3.eu-north-1.amazonaws.com',
+    'https://reactestcasegenerator.s3.eu-north-1.amazonaws.com/index.html',
     'https://reactestcasegenerator.s3-website.eu-north-1.amazonaws.com', // if using website endpoint
     'http://localhost:3000' // for local development
   ],
