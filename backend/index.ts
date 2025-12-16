@@ -11,6 +11,7 @@ app.use(cors({
   origin: [
     'https://reactestcasegenerator.s3.eu-north-1.amazonaws.com',
     'https://reactestcasegenerator.s3-website.eu-north-1.amazonaws.com',
+    'https://d2xzkwz6nifynl.cloudfront.net',
     'http://localhost:3000'
   ],
   credentials: true,
