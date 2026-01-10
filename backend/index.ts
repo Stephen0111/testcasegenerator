@@ -5,7 +5,7 @@ import cors from "cors";
 import generateTestRouter from "./generateTest";
 
 const app = express();
-const PORT = process.env.PORT || 8080; // Changed from 5000
+const PORT = process.env.PORT || 8080; 
 
 app.use(cors({
   origin: [
